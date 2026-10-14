@@ -12,7 +12,7 @@ export const routes = createBrowserRouter([
       },
       {
         path: "/dummy",
-        element: <div>Dummy</div>,
+        element: <div className="bg-red-300">Dummy</div>,
       },
     ],
   },
