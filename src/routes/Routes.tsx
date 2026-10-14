@@ -1,10 +1,11 @@
 import { createBrowserRouter } from "react-router";
+import ErrorPage from "@/pages/Error/ErrorPage";
 
 export const routes = createBrowserRouter([
   {
     path: "/",
     // element: <MainLayout />,
-    // errorElement: <ErrorPage />,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
